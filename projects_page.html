@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="website.css" />
+    <title>Projects</title>
+  </head>
+  <body>
+    <div id="projects_page_container">
+      <h1 class="text-white" id="projects_page_title">Projects</h1>
+      <nav>
+        <a href="home_page.html">Home</a>
+        <a href="about_page.html">About</a>
+        <a href="projects_page.html">Projects</a>
+        <a href="resume_page.html">Resume</a>
+        <a href="contact_page.html">Contacts</a>
+      </nav>
+    </div>
+
+    <div id="filter-container">
+      <button class="filter-btn active" onclick="filterProjects('all')">
+        All
+      </button>
+      <button class="filter-btn" onclick="filterProjects('design')">
+        Design
+      </button>
+      <button class="filter-btn" onclick="filterProjects('coding')">
+        Coding
+      </button>
+      <button class="filter-btn" onclick="filterProjects('marketing')">
+        Marketing
+      </button>
+    </div>
+
+    <div id="projects-grid"></div>
+
+    <script src="projects.js"></script>
+  </body>
+</html>

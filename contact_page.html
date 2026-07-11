@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="website.css" />
+    <title>ContactPage</title>
+    <script src="contact_page.js"></script>
+  </head>
+  <body>
+    <div id="contact_page_container">
+      <h1 class="text-white" id="contact_page_title">Contact</h1>
+
+      <nav>
+        <a href="home_page.html">Home</a>
+        <a href="about_page.html">About</a>
+        <a href="projects_page.html">Projects</a>
+        <a href="resume_page.html">Resume</a>
+        <a href="#">Contacts</a>
+      </nav>
+    </div>
+    <form method="post" action="contact_page.html"></form>
+    <div id="contact_page_content_container">
+      <fieldset id="contact_page_content">
+        <legend>Contact me</legend>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" /> <br />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" /> <br />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message"></textarea> <br />
+
+        <button id="contact_page_button">Send</button>
+      </fieldset>
+
+      <div id="contact_page_image">
+        <img src="contact_image.jpg" alt="Contact Page Image" />
+      </div>
+    </div>
+  </body>
+</html>
