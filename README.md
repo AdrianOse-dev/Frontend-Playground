@@ -22,7 +22,7 @@ A lightweight multi-page website built while exploring the fundamentals of front
 
 ### Home Page
 
-![Home Page](images/home.png)
+
 
 ### About Page
 
@@ -34,7 +34,7 @@ A lightweight multi-page website built while exploring the fundamentals of front
 
 ### Contact Page
 
-![Contact Page](images/contact.png)
+![Contact Page](images/contact_me.png)
 
 ## Running Locally
 
